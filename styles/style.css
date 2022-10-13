@@ -1,4 +1,22 @@
+:root {
+
+  /* Hexa-color */
+  --primary-color: #a63a50;
+  --secondary-color: #f0e7d8;
+  --third-color: #a1674a;
+
+  /* RGBA */
+  color: rgb(166, 58, 80);
+  color: rgb(240, 231, 216);
+  color: rgb(161, 103, 74);
+  
+}
+
 p {
     color: rgb(41, 116, 214);
     text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    
   }
