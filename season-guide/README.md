@@ -1,2 +1,0 @@
-# frutz
-Projet pédagogique
