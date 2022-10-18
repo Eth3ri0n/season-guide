@@ -35,3 +35,43 @@ body {
     sans-serif;
   color: var(--black-color);
 }
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header img {
+  width: 96px;
+}
+
+header {
+  box-shadow: 0px 3px 10px #cdc9c0af;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+  margin-right: 16px;
+}
+
+nav li a {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+nav .theme {
+  position: relative;
+  right: -150px;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
