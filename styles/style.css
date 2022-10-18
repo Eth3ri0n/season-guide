@@ -5,11 +5,14 @@
   --secondary-color: #f0e7d8;
   --third-color: #a1674a;
 
+  --white-color: #F7F7F7;
+  --black-color: #131313;
+
   /* RGBA */
-  color: rgb(166, 58, 80);
-  color: rgb(240, 231, 216);
-  color: rgb(161, 103, 74);
-  
+  --rgba-primary-color: rgb(166, 58, 80);
+  --rgba-secondary-color: rgb(240, 231, 216);
+  --rgba-third-color: rgb(161, 103, 74);
+
 }
 
 p {
