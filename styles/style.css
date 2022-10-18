@@ -41,12 +41,13 @@ body {
 /* Navbar */
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 header img {
   width: 96px;
+  margin-left: 1rem;
 }
 
 header {
@@ -62,7 +63,7 @@ nav {
 nav ul li {
   display: inline;
   list-style: none;
-  margin-right: 16px;
+  margin-right: 2.7rem;
 }
 
 nav li a {
@@ -70,10 +71,13 @@ nav li a {
   font-weight: bolder;
 }
 
-nav .theme {
-  position: relative;
-  right: -150px;
+nav li a i {
+  margin-right: 7px;
+}
+
+nav span.theme {
   color: var(--white-color);
   background-color: var(--primary-color);
   padding: 1rem;
+  margin-right: 1rem;
 }
