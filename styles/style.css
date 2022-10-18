@@ -75,9 +75,39 @@ nav li a i {
   margin-right: 7px;
 }
 
-nav span.theme {
-  color: var(--white-color);
-  background-color: var(--primary-color);
+nav span.theme i {
+  color: var(--primary-color);
+  /* background-color: var(--primary-color); */
   padding: 1rem;
   margin-right: 1rem;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  header img {
+    margin: 0;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav ul li {
+    margin: 1rem;
+  }
+
+  nav li a {
+    font-size: 1rem;
+  }
+
+  nav li a span {
+    display: none;
+  }
 }
