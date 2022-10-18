@@ -15,11 +15,23 @@
 
 }
 
-p {
-    color: rgb(41, 116, 214);
-    text-align: center;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.4s;
+}
 
-  @media screen and (max-width: 768px) {
-    
-  }
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+body {
+  background-color: var(--secondary-color);
+  font-family: 'Balsamiq Sans',
+    cursive;
+  font-family: 'Heebo',
+    sans-serif;
+  color: var(--black-color);
+}
