@@ -1,3 +1,11 @@
+/** Navbar menu */
+let burger = document.querySelector(".burger");
+burger.addEventListener("click", function () {
+  let navbar = document.querySelector(".navbar");
+  navbar.classList.toggle("active");
+});
+
+/** Flip Card Game **/
 const cards = document.querySelectorAll(".card"),
   timeTag = document.querySelector(".time b"),
   flipsTag = document.querySelector(".flips b"),
@@ -42,7 +50,7 @@ function flipCard({ target: clickedCard }) {
 function matchCards(img1, img2) {
   if (img1 === img2) {
     matchedCard++;
-    if (matchedCard == 6 && timeLeft > 0) {
+    if (matchedCard == 4 && timeLeft > 0) {
       return clearInterval(timer);
     }
     cardOne.removeEventListener("click", flipCard);
@@ -73,14 +81,14 @@ function shuffleCard() {
   flipsTag.innerText = flips;
   disableDeck = isPlaying = false;
 
-  let arr = [1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6];
+  let arr = [1, 2, 3, 4, 1, 2, 3, 4];
   arr.sort(() => (Math.random() > 0.5 ? 1 : -1));
 
   cards.forEach((card, index) => {
     card.classList.remove("flip");
     let imgTag = card.querySelector(".back-view img");
     setTimeout(() => {
-      imgTag.src = `img/img-${arr[index]}.jpg`;
+      imgTag.src = `img/img-${arr[index]}.PNG`;
     }, 500);
     card.addEventListener("click", flipCard);
   });
