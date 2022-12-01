@@ -50,8 +50,8 @@ header#nav {
   padding: 0 100px;
 }
 
-header#nav>img {
-  width: 140px;
+header#nav img {
+  width: 98px;
   height: auto;
 }
 
@@ -175,7 +175,7 @@ header#nav>img {
 .card,
 .view,
 .details,
-p {
+.details+p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -357,8 +357,7 @@ article#mentions-legales {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
-article#mentions-legales>#heb,
-h2 {
+article#mentions-legales>#heb+h2 {
   background-color: var(--primary-color);
   padding: 10px 20px;
 }
