@@ -4,7 +4,11 @@
 
 <!--===============Title===============-->
 # Season-Guide
+<<<<<<< HEAD
+![Season-Guide Logo](./src/img/logo-l.PNG)
+=======
 ![Season-Guide Logo](./src/img/logo-l.png)
+>>>>>>> 07497ae259ffcf83e7c4ec14d8c37291a69b324e
 
 ## Origine
 Ce _projet_ a été créé dans le cadre d'un travaux ***pédagogique universitaire*** dont l'objectif consiste à créer un site web de notre choix, et dans le langage de notre choix. C'est de là qu'est né le site Web **Season-Guide**.
