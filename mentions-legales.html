@@ -4,42 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/style.css" />
     <title>Season-Guide | Mentions Légales</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
-    <header id="nav">
-      <img src="./img/logo-l.PNG" alt="Logo" />
-      <nav class="navbar">
-        <ul>
-          <li>
-            <a href="./index.html"
-              ><img src="./img/home.PNG" alt="" /><span>Accueil</span></a
-            >
-          </li>
-          <li>
-            <a href="./fruits_legumes.html"
-              ><img src="./img/fl.PNG" alt="" /><span>Fruits & Légumes</span></a
-            >
-          </li>
-          <li>
-            <a href="./about.html"
-              ><img src="./img/about.PNG" alt="" /><span
-                >&Agrave; propos</span
-              ></a
-            >
-          </li>
-        </ul>
-      </nav>
-      <div class="burger">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
-      </div>
-    </header>
-    <main>
+  <body class="light">
+    <header class="nav"></header>
+    <main class="mentions-container">
       <section id="mentions">
-        <article id="mentions-legales">
+        <article id="mentions-legales-intro">
+          <header id="season-guide">
+            <h1>Hébergeur</h1>
+          </header>
+          <h2>Season-Guide</h2>
+          <p>
+            <strong>Season-Guide</strong> est un projet fictif réaliser par des
+            étudiants de
+            <strong>MMI (Métiers du Multimédia et de l'internet)</strong> de
+            l'<strong>Institut Universitaire de Technologie de Tarbes</strong>.
+            <br /><br />On tient donc à signaler à tous les visiteurs potentiels
+            que ce site à été créer dans un cadre pédagogique qui prendra fin
+            <strong>en Décembre 2022</strong> et ne sera de se fait pas tenu à
+            jours et sera considéré comme un site malveillant par les moteurs de
+            recherche au-delà de cette période.<br /><br />Merci de votre
+            compréhension / prudence, et de votre visite !
+          </p>
+        </article>
+        <article id="mentions-legales-host">
           <header id="heb">
             <h1>Hébergeur</h1>
           </header>
@@ -55,5 +52,7 @@
         </article>
       </section>
     </main>
+    <footer id="footer"></footer>
   </body>
+  <script src="./index.js"></script>
 </html>
