@@ -5,83 +5,189 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Season-Guide | About</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
-    <header id="nav">
-      <a href="./index.html"><img src="./img/logo-l.PNG" alt="Logo" /></a>
-      <nav class="navbar">
-        <ul>
-          <li>
-            <a href="./index.html"
-              ><img src="./img/home.PNG" alt="" /><span>Accueil</span></a
-            >
-          </li>
-          <li>
-            <a href="./fruits_legumes.html"
-              ><img src="./img/fl.PNG" alt="" /><span>Fruits & Légumes</span></a
-            >
-          </li>
-          <li>
-            <a href="./about.html"
-              ><img src="./img/about.PNG" alt="" /><span
-                >&Agrave; propos</span
-              ></a
-            >
-          </li>
-        </ul>
-      </nav>
-      <div class="burger">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
-      </div>
-    </header>
-    <main>
-      <section id="about">
-        <h1>A Propos</h1>
-        <article class="na">
-          <h2>SEIDOU Nawel</h2>
-          <p>Compétences</p>
-          <ol>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SQL</li>
-            <li>BOOTSTRAP</li>
-          </ol>
-        </article>
-        <article class="yang">
-          <h2>CHEN Yangsiyu</h2>
-          <p>Compétences</p>
-          <ol>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ol>
-        </article>
-        <article class="thi">
-          <h2>RANDRIANARISAINA Thierryno</h2>
-          <p>Compétences</p>
-          <ol>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SQL</li>
-            <li>BOOTSTRAP</li>
-            <li>PHP</li>
-            <li>C#</li>
-            <li>TWIG</li>
-            <li>JAVASCRIPT</li>
-          </ol>
+
+  <body class="light">
+    <header class="nav"></header>
+    <main id="about">
+      <h1>&Agrave; Propos</h1>
+      <section class="info-folder">
+        <div class="team">
+          <article class="member">
+            <span class="role">Product Owner</span>
+            <h3>SEIDOU Nawel</h3>
+            <p class="skills">Compétences</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SQL</li>
+              <li>BOOTSTRAP</li>
+            </ul>
+          </article>
+          <article class="member">
+            <span class="role">Scrum Master</span>
+            <h3>CHEN Yangsiyu</h3>
+            <p class="skills">Compétences</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </article>
+          <article class="member">
+            <span class="role">Tech Lead</span>
+            <h3>RANDRIANARISAINA Thierryno</h3>
+            <p class="skills">Compétences</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SQL</li>
+              <li>BOOTSTRAP</li>
+              <li>PHP</li>
+              <li>C#</li>
+              <li>TWIG</li>
+              <li>JAVASCRIPT</li>
+            </ul>
+          </article>
+        </div>
+        <article class="drive-link">
+          <p class="text-drive-link">
+            Pour voir les maquettes du site suivez le lien ci-dessous :
+          </p>
+          <a
+            href="https://drive.google.com/drive/u/1/folders/1WAKr5XO1xdoPWG_eWRpj27vM5gDcYH5R"
+            target="_blank"
+            >Lien Drive du Projet</a
+          >
         </article>
       </section>
+      <section class="table-info">
+        <article class="task-info">
+          <figure>
+            <figcaption class="task-members">
+              Tâches des membres de l'équipe
+            </figcaption>
+            <table class="tasks">
+              <thead>
+                <tr>
+                  <th>Product Owner</th>
+                  <th>Scrum Master</th>
+                  <th>Tech Lead</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <ol>
+                      <li>
+                        Répertorier les fruits et légumes pour chaque mois /
+                        saisons (30 min)
+                      </li>
+                      <li>UX expérience web + mobile (3 jours)</li>
+                      <li>Wireframes web + mobile (5 jours)</li>
+                      <li>User flow (product owner)</li>
+                    </ol>
+                  </td>
+                  <td>
+                    <ol>
+                      <li>Veille (30min) (scrum Master)</li>
+                      <li>
+                        8 icônes fruits et légumes sur procreate (week-end)
+                      </li>
+                      <li>
+                        Identité graphique = propositions + choix finaux (2
+                        semaines)
+                      </li>
+                      <li>Charte Graphique + éléments graphiques (5h30)</li>
+                      <li>Maquettes web & mobile</li>
+                    </ol>
+                  </td>
+                  <td>
+                    <ol>
+                      <li>Link le vsc et GitHub (2h)</li>
+                      <li>Brand strategy (tech Lead) (30 min)</li>
+                      <li>
+                        Recherches des langages les plus appropriés pour notre
+                        site (1h30mn)
+                      </li>
+                      <li>4 icons saisons test Illustrator (3 jours)</li>
+                      <li>
+                        Préparer l'environnement du site (les dossiers et les
+                        pages, link le CSS, JavaScript) (30min)
+                      </li>
+                      <li>
+                        Jeu de la Homepage : recherches + développement (48h)
+                      </li>
+                      <li>Barre de recherches dynamique avec JS (45min)</li>
+                      <li>Maquettes web & mobile (2 jours)</li>
+                    </ol>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </figure>
+        </article>
+      </section>
+      <section class="contact-container">
+        <h2>Pour plus d'informations contacter nous !</h2>
+        <div class="contact">
+          <form>
+            <label for="lname">Nom :</label><br />
+            <input
+              type="text"
+              placeholder="Votre Nom..."
+              value=""
+              id="lname"
+              required
+            /><br />
+            <label for="fname">Prénom :</label><br />
+            <input
+              type="text"
+              placeholder="Votre prénom.."
+              value=""
+              id="fname"
+              required
+            /><br />
+            <label for="email">Mail :</label><br />
+            <input
+              type="email"
+              placeholder="Votre Nom..."
+              value=""
+              id="email"
+              required
+            /><br />
+            <label for="message-mail">Message :</label><br />
+            <textarea
+              name="message"
+              id="message-mail"
+              cols="50"
+              rows="5"
+              placeholder="Que souhaitez-vous savoir ?"
+              required
+            ></textarea>
+            <input type="submit" value="Submit" />
+          </form>
+          <article class="slogan">
+            <p>
+              Pour rester en pleine forme.<br />
+              <strong
+                ><q>
+                  Ne mangez pas trop gras, trop sucré, trop salé.
+                </q></strong
+              >
+            </p>
+          </article>
+        </div>
+      </section>
     </main>
-    <footer>
-      <div class="footer">
-        <img src="./img/logo-l.PNG" alt="logo" />
-        <ul>
-          <li><a href="./mentions-legales.html">Mentions légales</a></li>
-        </ul>
-      </div>
-      <h5>&copy; Season Guide, all right reseved | 2022</h5>
-    </footer>
+    <footer id="footer"></footer>
   </body>
+  <script src="./index.js"></script>
 </html>
